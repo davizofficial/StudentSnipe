@@ -1,28 +1,26 @@
-# 🎯 StudentSnipe
+# 🎯 StudentSnipe — Terminal-based Student Info Collector
 
-![GitHub Repo stars](https://img.shields.io/github/stars/davizofficial/studentsnipe?style=flat-square)
-![GitHub forks](https://img.shields.io/github/forks/davizofficial/studentsnipe?style=flat-square)
-![GitHub last commit](https://img.shields.io/github/last-commit/davizofficial/studentsnipe?style=flat-square)
-![License](https://img.shields.io/github/license/davizofficial/studentsnipe?style=flat-square)
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg?style=flat-square)
-
+![Python](https://img.shields.io/badge/Python-3.6%2B-blue?logo=python)
+![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-informational)
+![License](https://img.shields.io/badge/License-MIT-success)
+![Status](https://img.shields.io/badge/Build-Passing-brightgreen)
 
 
-**StudentSnipe** is a lightweight and efficient CLI-based intelligence tool designed to retrieve public academic data of Indonesian university students based on full names. It supports academic research, OSINT exploration, and educational demonstration of public data systems.
+## 🛡️ Legal & Ethical Disclaimer
 
-Whether you're a researcher, student, journalist, or open-source investigator, StudentIntel helps you understand how structured public data can be accessed responsibly using simple and offline tools — without relying on heavy third-party libraries.
+This tool is developed solely for **educational and research purposes**.  
+All data processed and displayed is **publicly available** from the official PDDIKTI platform ([https://pddikti.kemdikbud.go.id](https://pddikti.kemdikbud.go.id)), and **no private or unauthorized information** is accessed.
+
+> I do not encourage or support the use of this tool for cybercrime, illegal activities, or privacy violations.  
+> This project is intended to be used responsibly for learning, academic exploration, and public data analysis.
 
 
-## 🔍 Why StudentSnipe?
+## ✨ About This Project
 
-In today's digital landscape, understanding how public academic records are exposed and structured is essential. **StudentSnipe** allows users to:
+**StudentSnipe** is a lightweight terminal application that helps you collect and manage student information interactively via CLI. Built entirely with Python, it’s designed to be simple, cross-platform, and beginner-friendly — perfect for learning or quick student data projects.
 
-- Explore the public PDDIKTI dataset programmatically  
-- Raise awareness on public information exposure  
-- Build tools for educational or institutional research  
-- Analyze student distributions and university records  
+Whether you’re a student, educator, or enthusiast, this tool can serve as a base for deeper educational software or automation ideas.
 
- **This is not a scraping or illegal harvesting tool** — StudentIntel mimics a user-facing search of publicly available records.
 
 
 ## 🚀 Features
@@ -39,84 +37,85 @@ In today's digital landscape, understanding how public academic records are expo
 - 🧠 Ideal for academic analysis and ethical OSINT tasks
 
 
-## 📥 Installation
+## 🚀 Quick Start
 
 ### 🔧 Requirements
 
-- Python 3.8 or higher  
-- Git (optional)  
-- Internet access (only to query the official public API)
+- Python **3.6 or newer**
+- `git` (if you want to clone)
+- Internet access (for dependency installation)
 
 
-### 🪟 Windows Setup
+## 📥 Cloning the Repository
 
-1. **Install Python**  
-   Download from [python.org](https://www.python.org/downloads/windows/)  
-   Ensure that **"Add Python to PATH"** is checked ✅ during installation.
+### ✅ Windows
 
-2. **Clone the Repository**
+```bash
+git clone https://github.com/davizofficial/StudentSnipe.git
+cd StudentSnipe
+````
 
-   git clone https://github.com/davizofficial/studentsnipe.git
-   cd studentsnipe
+### ✅ Linux / macOS
 
-Or download ZIP and extract manually.
+```bash
+git clone https://github.com/davizofficial/StudentSnipe.git
+cd StudentSnipe
+```
 
-3. **Create Virtual Environment (Optional but Recommended)**
 
-   python -m venv .venv
-   .venv\Scripts\activate
-   
+## ⚙️ Running the App
 
-4. **Install Dependencies**
+### ▶️ On Windows
 
+1. **Install Python:** [Download Python for Windows](https://www.python.org/downloads/windows/)
+2. **Open Command Prompt** or PowerShell:
+
+   ```bash
+   cd path\to\StudentSnipe
+   python -m venv venv
+   venv\Scripts\activate
    pip install -r requirements.txt
-   
-
-5. **Run the Program**
-
    python main.py
-   
-
-### 🐧 Linux Setup (Debian/Ubuntu)
-
-1. **Install Python**
-
-   sudo apt update
-   sudo apt install python3 python3-pip
-   
-
-2. **Clone the Repository**
-
-   git clone https://github.com/davizofficial/studentsnipe.git
-   cd studentsnipe
-   
-
-3. **Install Dependencies**
-
-   pip3 install -r requirements.txt
-   
-
-4. **Run the Program**
-
-   python3 main.py
+   ```
 
 
+### 🐧 On Linux
 
-## 🛡️ Legal & Ethical Disclaimer
+```bash
+cd /path/to/StudentSnipe
+python3 -m venv venv
+source venv/bin/activate
+pip3 install -r requirements.txt
+python3 main.py
+```
 
-This tool is developed solely for **educational and research purposes**.
-All data processed and displayed is **publicly available** from the official PDDIKTI platform ([https://pddikti.kemdikbud.go.id](https://pddikti.kemdikbud.go.id)), and **no private or unauthorized information** is accessed.
 
-> I do not encourage or support the use of this tool for cybercrime, illegal activities, or privacy violations. I believe this tool can be used responsibly and ethically for learning, academic exploration, and public data analysis.
+### 🍎 On macOS
+
+```bash
+cd /path/to/StudentSnipe
+python3 -m venv venv
+source venv/bin/activate
+pip3 install -r requirements.txt
+python3 main.py
+```
 
 
+## 🛠 Developer Tips
+
+* Prefer terminals with color support (e.g., Windows Terminal, iTerm2)
+* Use Python 3.6+ for f-string compatibility
 
 ## 🤝 Contributing
 
-Feel free to submit issues, suggest features, fork the repository, or open pull requests. Contributions are welcome and appreciated.
+Pull requests are welcome!
+Let’s improve this tool together. Fork it, build something cool, and submit a PR.
 
 
-## 👨‍💻 About the Developer
+## 📫 Author
 
-Built with a focus on education, responsible disclosure, and cybersecurity awareness.
-This tool is a reminder of how public data should be handled thoughtfully in the digital age.
+Created by **\[Daviz Arva]**
+Feel free to connect via [GitHub Issues](https://github.com/davizofficial/StudentSnipe/issues)
+
+
+ **This is not a scraping or illegal harvesting tool** — StudentSnipe mimics a user-facing search of publicly available records.
