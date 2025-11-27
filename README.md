@@ -17,7 +17,7 @@ All data processed and displayed is **publicly available** from the official PDD
 
 ## ✨ About This Project
 
-**StudentSnipe** is a lightweight terminal application that helps you collect and manage student information interactively via CLI. Built entirely with Python, it’s designed to be simple, cross-platform, and beginner-friendly — perfect for learning or quick student data projects.
+**StudentSnipe** is a terminal-based tool designed to legally search and retrieve verified student data using the PDDIKTI library. Developed entirely in Python, it offers a clean, cross-platform, and beginner-friendly interface suitable for academic workflows, data validation, and efficient access to official student information.
 
 Whether you’re a student, educator, or enthusiast, this tool can serve as a base for deeper educational software or automation ideas.
 
@@ -25,16 +25,29 @@ Whether you’re a student, educator, or enthusiast, this tool can serve as a ba
 
 ## 🚀 Features
 
-- 🔎 Search student data by **Full Name**
-- 🎓 Displays information including:
+### Core Features
+- 🔎 Search student data by **Full Name** or **NIM**
+- 🎓 Displays comprehensive information:
   - Full Name
   - Student ID (NIM)
   - Program of Study
   - University
   - Enrollment Status
-- 📟 Interactive and clean CLI interface
+  - Angkatan (Year)
+- 📟 Interactive and beautiful CLI interface with Rich library
 - 💡 Open-source and modifiable
 - 🧠 Ideal for academic analysis and ethical OSINT tasks
+
+### Advanced Features
+- 🔍 **Multiple Search Results**: View all matching students, not just the first
+- 💾 **Smart Caching**: Faster searches with 24-hour cache
+- 📜 **Search History**: Track your last 50 searches
+- 💾 **Export Data**: Save results to JSON, CSV, or TXT
+- 📦 **Batch Processing**: Search multiple students from a file
+- 🎨 **Enhanced UI**: Beautiful tables, progress bars, and interactive menus
+- ⚡ **Performance**: Optimized with caching and rate limiting
+
+> 📖 For detailed feature documentation, see [FEATURES.md](FEATURES.md)
 
 
 ## 🚀 Quick Start
