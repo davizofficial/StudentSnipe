@@ -21,7 +21,13 @@ All data processed and displayed is **publicly available** from the official PDD
 
 Whether you’re a student, educator, or enthusiast, this tool can serve as a base for deeper educational software or automation ideas.
 
+## ?? Screenshots
 
+### Main Menu
+![Main Menu](display/main.jpg)
+
+### Search Results
+![Search Results](display/screen.jpg)
 
 ## 🚀 Features
 
