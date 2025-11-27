@@ -1,3 +1,5 @@
 pddiktipy>=0.1.4
 requests>=2.25.0
 urllib3>=1.26.0
+rich>=13.0.0
+inquirer>=3.1.0
